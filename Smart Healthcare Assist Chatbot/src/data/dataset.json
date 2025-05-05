@@ -1,0 +1,74 @@
+{
+  "intents": [
+    {
+      "intent": "greeting",
+      "examples": [
+        "Hello",
+        "Hi",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I help you with?",
+        "Good day! How may I help you?"
+      ]
+    },
+    {
+      "intent": "symptom_check",
+      "examples": [
+        "I have a headache",
+        "I'm feeling nauseous",
+        "I have a fever",
+        "I feel dizzy"
+      ],
+      "responses": [
+        "I'm sorry to hear that. Can you describe your symptoms in more detail?",
+        "It's important to consult a healthcare professional. Have you considered seeing a doctor?",
+        "Please make sure to stay hydrated and rest. Would you like more information on your symptoms?"
+      ]
+    },
+    {
+      "intent": "appointment",
+      "examples": [
+        "I want to book an appointment",
+        "Can I schedule a visit?",
+        "I need to see a doctor",
+        "How do I make an appointment?"
+      ],
+      "responses": [
+        "I can help with that! Please provide me with your preferred date and time.",
+        "To book an appointment, please visit our website or call our office.",
+        "Let me assist you with scheduling an appointment. What date works for you?"
+      ]
+    },
+    {
+      "intent": "medication_info",
+      "examples": [
+        "Tell me about aspirin",
+        "What is ibuprofen used for?",
+        "How should I take my medication?",
+        "Are there side effects of this drug?"
+      ],
+      "responses": [
+        "Aspirin is commonly used for pain relief and reducing inflammation. Do you have specific questions about it?",
+        "Ibuprofen is used to reduce fever and relieve pain. Always follow your doctor's instructions.",
+        "It's important to take your medication as prescribed. If you have questions, consult your pharmacist."
+      ]
+    },
+    {
+      "intent": "thank_you",
+      "examples": [
+        "Thank you",
+        "Thanks for your help",
+        "I appreciate your assistance",
+        "You're great!"
+      ],
+      "responses": [
+        "You're welcome! If you have any more questions, feel free to ask.",
+        "I'm glad I could help! Don't hesitate to reach out if you need anything else.",
+        "Thank you for your kind words! I'm here to assist you."
+      ]
+    }
+  ]
+}
